@@ -1,3 +1,4 @@
+# Option 1
 s = "Hello"
 new_s = ""
 
@@ -11,4 +12,7 @@ for char in s:
         new_s += char
 
 print(new_s)
+
+# Option 2
+print(s.replace(curr_char, new_char))
 
